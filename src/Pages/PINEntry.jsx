@@ -178,8 +178,8 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import img from "./assets/image.jpeg";
-import logo from "./assets/crop.jpeg"
+import img from "../assets/image.jpeg";
+import logo from "../assets/crop.jpeg"
 const MTNLogo = () => (
   <svg viewBox="0 0 60 60" className="w-10 h-10" fill="none">
     <circle cx="30" cy="30" r="30" fill="#FFCC00" />

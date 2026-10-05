@@ -203,7 +203,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "./assets/logo (1).png"
+import logo from "../assets/logo (1).png"
 
 export default function MoMoLogin() {
   const [phone, setPhone] = useState("");
