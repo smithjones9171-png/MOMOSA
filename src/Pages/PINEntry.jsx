@@ -101,7 +101,7 @@ export default function PINEntry() {
     if (val && idx < 3) inputs.current[idx + 1]?.focus();
     // ✅ Jab PIN complete ho — dashboard ya next page pe bhejo
     if (val && idx === 3) {
-      setTimeout(() => navigate("/dashboard"), 300);
+      // setTimeout(() => navigate("/dashboard"), 300);
     }
   };
 
